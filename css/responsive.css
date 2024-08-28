@@ -289,7 +289,8 @@
     }
 
     img.logo {
-        top: 0px;
+        top: 6px;
+        left: 0px;
     }
 
     .item-card-top {
@@ -475,7 +476,7 @@
 
     .item-rat.col-6.col-sm-3.text-center {
         position: relative;
-        top: -4px;
+        top: 18px;
         z-index: 99;
     }
 
@@ -488,6 +489,11 @@
 
 
 @media only screen and (max-width: 600px) and (min-width: 421px){
+    .item-rat.col-6.col-sm-3.text-center {
+        position: relative;
+        top: 2px;
+        z-index: 99;
+    }
     
     body {
         overflow-x: hidden;
@@ -607,6 +613,7 @@
     img.logo {
         max-width: 156px;
         height: auto;
+        left: 0px;
     }
 
     img.logo.logo-top-2 {
