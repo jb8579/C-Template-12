@@ -239,13 +239,13 @@ img.logo {
 }
 
 .item-bonus::before {
-  content: ' ';
-  width: 2px;
-  height: 140px;
-  background: #80808059;
-  position: absolute;
-  margin-left: 215px;
-  top: -24px;
+    content: ' ';
+    width: 2px;
+    height: 140px;
+    background: #80808059;
+    position: absolute;
+    margin-left: 188px;
+    top: -24px;
 }
 
 .item-rat::before {
